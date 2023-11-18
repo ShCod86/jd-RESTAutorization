@@ -1,0 +1,8 @@
+version: '1'
+
+services:
+  application1:
+    build: ./
+    container_name: 'ymlcontainer'
+    ports:
+      - '8080:8080'
